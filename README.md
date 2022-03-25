@@ -1,24 +1,39 @@
+Part 1: Directions on how to use Webstorm
+Download Webstorm from this link: https://www.jetbrains.com/student/
+Create github account: https://github.com/join
+Connect Github with Webstorm ( press (Crtl+Alt+S) for Webstorm's System perferences, select version control Git. Enter the path to the git.exe)
+Add Github Password to Webstorm ( while in the system preferences still select appearance and behavior| system settings | Passwords
+Create a Respository from Webstorm (Select VCS and Import into Version Control)
+Import a Repository from Github (From Main page Select Checkout from version control -> Git OR, From within Webstorm Select VCS -> Checkout from version control -> Git, Enter Github repository name, Enter local path name
+Creating a Webstorm File (Choose File -> HTML -> HTML 5 or File -> Stylesheet
+Add files to Git ( The Add to Git dialog opens. Click Add. This adds to local file system )
+References: Intro to GitHub and Webstorm Powerpoint
 
-Branch Use a branch to isolate development work without affecting other branches in the repository. Each repository has one default branch, and can have multiple other branches. You can merge a branch into another branch using a pull request.
+Part 2: Glossary
+Branch: a parallel version of a repository. It is contained with the repository, but does not affect the primary to main branch allowing you to work freely without disrupting the “live” version.
 
-Clone When you create a repository on GitHub.com, it exists as a remote repository. You can clone your repository to create a local copy on your computer and sync between the two locations.
+Clone: a copy of a repository that lives on your computer instead of on a website’s server somewhere, or the act of making that copy.
 
-Commit creates a commit, which is like a snapshot of your repository. These commits are snapshots of your entire repository at specific times.
+Commit: an individual change to a file ( or sets of files).
 
-Fetch Use git fetch to retrieve new work done by other people. Fetching from a repository grabs all the new remote-tracking branches and tags without merging those changes into your own branches. Otherwise, you can always add a new remote and then fetch.
+Fetch: adding changes from the remote repository to your local working branch without committing them.
 
-GIT Git is a version control system that lets you manage and keep track of your source code history.
+GIT: An open source program for tracking changes in text files.
 
-Github GitHub is a cloud-based hosting service that lets you manage Git repositories. If you have open-source projects that use Git, then GitHub is designed to help you better manage them.
+Github: a code hosting platform for version controls and collaboration. It lets you and others work together on projects from anywhere
 
-Merge Merge a pull request into the upstream branch when work is completed. Anyone with push access to the repository can complete the merge.
+Merge: takes the changes from one branch ( in the same repository or from a fork), and applies them into another.
 
-Merge Conflict Merge conflicts happen when you merge branches that have competing commits, and Git needs your help to decide which changes to incorporate in the final merge.
+Merge Conflict: A difference that occurs between merged branches. Merge conflicts happen when people make different changes to the same line of the same file, or when one person edits a file and another person deletes the same file.
 
-Push - pushing sends the recent commit history from your local repository up to GitHub.
+Push: to send your committed changes to a remote repository on GitHub.com
 
-Pull - a pull grabs any changes from the GitHub repository and merges them into your local repository.
+Pull: refers to when you are fetching in changes and merging them.
 
-Remote Repository A remote URL is Git's fancy way of saying "the place where your code is stored." That URL could be your repository on GitHub, or another user's fork, or even on a completely different server.
+Remote: This is the version of a repository or branch that is hosted on a server, most likely GitHub.com. Remote versions can be connected to local clones so that changes can be synced.
 
-source:docs.github.com
+Repository: contains all of the project files (including documentation), and stores each file’s revision history. Repositories can have multiple collaborators and can be either public or private
+
+References:
+
+https://docs.github.com/en/get-started/quickstart/github-glossary
