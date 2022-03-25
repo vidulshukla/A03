@@ -1,4 +1,6 @@
 Part 1: Directions on how to use Webstorm
+
+
 Download Webstorm from this link: https://www.jetbrains.com/student/
 Create github account: https://github.com/join
 Connect Github with Webstorm ( press (Crtl+Alt+S) for Webstorm's System perferences, select version control Git. Enter the path to the git.exe)
@@ -10,6 +12,8 @@ Add files to Git ( The Add to Git dialog opens. Click Add. This adds to local fi
 References: Intro to GitHub and Webstorm Powerpoint
 
 Part 2: Glossary
+
+
 Branch: a parallel version of a repository. It is contained with the repository, but does not affect the primary to main branch allowing you to work freely without disrupting the “live” version.
 
 Clone: a copy of a repository that lives on your computer instead of on a website’s server somewhere, or the act of making that copy.
