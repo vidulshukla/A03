@@ -2,6 +2,7 @@ Part 1: Directions on how to use Webstorm
 
 
 Download Webstorm from this link: https://www.jetbrains.com/student/
+
 Create github account: https://github.com/join
 Connect Github with Webstorm ( press (Crtl+Alt+S) for Webstorm's System perferences, select version control Git. Enter the path to the git.exe)
 Add Github Password to Webstorm ( while in the system preferences still select appearance and behavior| system settings | Passwords
