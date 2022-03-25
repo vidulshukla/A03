@@ -4,12 +4,19 @@ Part 1: Directions on how to use Webstorm
 Download Webstorm from this link: https://www.jetbrains.com/student/
 
 Create github account: https://github.com/join
+
 Connect Github with Webstorm ( press (Crtl+Alt+S) for Webstorm's System perferences, select version control Git. Enter the path to the git.exe)
+
 Add Github Password to Webstorm ( while in the system preferences still select appearance and behavior| system settings | Passwords
+
 Create a Respository from Webstorm (Select VCS and Import into Version Control)
+
 Import a Repository from Github (From Main page Select Checkout from version control -> Git OR, From within Webstorm Select VCS -> Checkout from version control -> Git, Enter Github repository name, Enter local path name
+
 Creating a Webstorm File (Choose File -> HTML -> HTML 5 or File -> Stylesheet
+
 Add files to Git ( The Add to Git dialog opens. Click Add. This adds to local file system )
+
 References: Intro to GitHub and Webstorm Powerpoint
 
 Part 2: Glossary
